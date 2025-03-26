@@ -26,7 +26,7 @@ def update_warehouse():
         print("4: Location")
         print("5: Update All")
         choice = int(input("Enter your choice (1-5): "))
-        
+    
         if choice == 1 or choice == 5:
             product_name = input("Enter new product name: ")
             warehouse[product_id]["product_name"] = product_name
